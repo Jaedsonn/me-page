@@ -1,0 +1,12 @@
+:root {
+    --button-background-hover: #f64545;
+  }
+
+  #about_text > #resume:hover{
+    background-color: var(--button-background-hover);
+  }
+
+  .nav_links:hover{
+    transform-style: preserve-3d;
+    border-bottom: solid 2px black;
+  }
