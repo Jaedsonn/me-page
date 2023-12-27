@@ -34,7 +34,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 52px;
+  gap: 40px;
 }
 
 #cabecalho > nav > a {
@@ -42,6 +42,8 @@ body {
   font-weight: 500;
   color: var(--header-text-color);
   height: 18px;
+  
+  
 }
 
 #about-me {
