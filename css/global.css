@@ -56,7 +56,7 @@ body {
 }
 
 #about-me > #about_text {
-  height: 22rem;
+  height: 25rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -150,4 +150,97 @@ body {
 
 #me-description_cont > img {
   width: 480px;
+}
+
+#skills{
+  width: 100%;
+  height: 36rem;
+  padding: 0rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#skills > h1{
+  width: 40.625rem;
+  height: auto;
+  color: var(--text-color-primary);
+  font-family: "Heebo", sans-serif;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+}
+
+.skill_cont{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+#skills > .skill_cont > li{
+  height:120px;
+  width:124px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-family: "Heebo", sans-serif;
+  font-size:22px;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+#html{
+  background-color: rgb(255, 51, 0);
+  color:var(--background-primary);
+  text-shadow:2px 2px 0px rgb(0, 0, 0);
+}
+
+#css{
+  background-color:var(--link-color);
+  color: var(--background-primary);
+  text-shadow:2px 2px 0px rgb(0, 0, 0);
+}
+
+#js{
+  color:#000;
+  background-color: #ffff00;
+  text-shadow:2px 2px 0px rgb(255, 255, 255);
+}
+
+#git{
+  background-color: #ff4d00;
+  color: var(--background-primary);
+  text-shadow:2px 2px 0px rgb(0, 0, 0);
+}
+
+#github{
+  background-color: #000;
+  color: var(--background-primary);
+  text-shadow:2px 2px 0px rgb(35, 35, 35);
+}
+
+#projects{
+  width: 100%;
+  height: 36rem;
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#projects > h1{
+  height:120px;
+  width:124px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-family: "Heebo", sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  border-radius: 10px;
 }
