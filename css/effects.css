@@ -6,6 +6,7 @@
   background-color: var(--button-background-hover);
 }
 
+
 .nav_links::after {
   content: "";
   width: 0px;

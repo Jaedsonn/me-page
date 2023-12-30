@@ -7,16 +7,18 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/effects.css">
-
+   
     <title>Jaedson Barbosa Macedo</title>
 </head>
 
 <body>
     <header id="cabecalho">
         <nav>
-            <a href="#" class="nav_links">Inicío</a>
-            <a href="#" class="nav_links">Projetos</a>
-            <a href="#" class="nav_links">Contatos</a>
+            <a href="#about-me" class="nav_links">Inicío</a>
+            <a href="#me-description" class="nav_links">Sobre mim</a>
+            <a href="#skills" class="nav_links">Skills</a>
+            <a href="#projects" class="nav_links">Projetos</a>
+            <a href="#contatos" class="nav_links">Contatos</a>
         </nav>
     </header>
     <main>
@@ -29,9 +31,13 @@
                 <p>
                     Sou apaixonado por tecnologia desde que tive o meu primeiro contato com um computador, a ideia de
                     ter informações de maneira quase instantânea me deixou deslumbrado. Nos meus 18 anos tive contato
-                    com a área de programação onde, atualmente, atuo como desenvolvedor frontend freelancer há quase 2 meses
+                    com a área de programação onde, atualmente, atuo como desenvolvedor frontend freelancer há quase 2
+                    meses
                 </p>
-                <button id="resume">Download Resume</button>
+                <a href="/me-page/Curriculo programador (1) (1).pdf" download="Curriculo programador (1) (1).pdf" id="resume">
+                    <button type="button">Resume</button>
+                </a>
+               <!--  <button id="resume">Download Resume</a></button> -->
             </div>
 
             <img src="assets/jaedson-barbosa-macedo-high-resolution-logo-black-transparent.png" alt="" id="me_img">
@@ -66,10 +72,73 @@
         </section>
         <section id="projects">
             <h1>Projetos</h1>
-            <div id="projects-cont"></div>
+            <div id="projects-cont">
+                <div class="projeto">
+                    <img src="assets/Dashboard.png" alt="">
+                    <p>
+                        <span>Dashboard Elegante para Gerenciamento de Dados</span>
+                        <br>
+                        O projeto consiste em um dashboard moderno e intuitivo desenvolvido utilizando HTML e CSS, com o
+                        objetivo de oferecer uma solução eficiente para o gerenciamento e visualização de dados
+                        essenciais. Com um design limpo e elegante, o dashboard proporciona uma experiência de usuário
+                        aprimorada, proporcionando uma interface amigável e intuitiva para a análise de informações
+                        críticas. Link: <a href="https://jaedsonn.github.io/Dashboard/" target="_blank"> Dashboard</a>
+                    </p>
+                </div>
+                <div class="projeto_mode">
+                    <div id="mode_img">
+                        <img src="assets/login.png" alt="">
+                        <img src="assets/sing up.png" alt="">
+                    </div>
+                    
+                    <p>
+                        <span>Card de Registro Inteligente com Interface Dinâmica</span>
+                        <br>
+                        O projeto consiste em um inovador card de registro desenvolvido com HTML, CSS e JavaScript, oferecendo aos usuários uma experiência simplificada e intuitiva ao criar e acessar contas. O objetivo principal é fornecer uma interface de registro eficiente, que se adapta de forma inteligente, proporcionando uma transição suave entre a criação de conta e o login. Link: <a href="https://jaedsonn.github.io/Card-para-login-e-cria-o-de-conta/" target="_blank">Card para login e sing-up</a>
+                    </p>
+                </div>
+                <div class="projeto_mode">
+                    <div id="mode_img">
+                        <img src="assets/PáginaL.png" alt="">
+                        <img src="assets/PáginaS.png" alt="">
+                    </div>
+                    
+                    <p>
+                        <span>Página de Login com Elegância Responsiva e Registro Integrado</span>
+                        <br>
+                        Esta página de login foi cuidadosamente projetada e desenvolvida utilizando HTML, CSS e JavaScript para proporcionar uma experiência de autenticação eficiente e esteticamente agradável. A principal inovação reside na integração perfeita entre a interface de login e a criação de conta, proporcionando aos usuários uma transição intuitiva entre esses dois estados. Link: <a href="https://jaedsonn.github.io/Login-page/" target="_blank">Página de Login</a><br>
+                    </p>
+                </div>
+            </div>
         </section>
-
+       
     </main>
+    <footer id="contatos">
+        <h2>Contatos</h2>
+        <ul>
+            <li>
+                Email: 
+                <a href="mailto:jaedsonbarbosamacedo@gmail.com" target="_blank">jaedsonbarbosamacedo@gmail.com</a>
+                
+            </li>
+            <li>
+                Linkedin: 
+                <a href="https://www.linkedin.com/in/jaedson-barbosa-macedo-663a1926b/"> Jaedson Barbosa Macedo</a>
+            </li>
+            <li>
+                GitHub: 
+                <a href=""> Jaedsonn</a>
+            </li>
+            <li>
+                CodePen: 
+                <a href="https://codepen.io/Jaedsonn">Jaedsonn</a>
+            </li>
+            <li>
+                Instagram: 
+                <a href="https://www.instagram.com/jaedsonn01/">jaedsonn01</a>
+            </li>
+        </ul>
+    </footer>
 </body>
 
 </html>
