@@ -43,3 +43,7 @@
   box-shadow: 15px 12px 0px #0b0b0b;
   transition: all 0.3s;
 }
+#scss:hover {
+  box-shadow: 15px 12px 0px #e40189;
+  transition: all 0.3s;
+}
